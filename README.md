@@ -28,7 +28,7 @@ On ruby, there is no 'function' but 'method'. A method out of the class definiti
 The ruby program file should be end with a single newline.
 
 > [!NOTE]
-> Does GitHub or some thing automatically delete the end line? The line will not appear on repository but on code editor.
+> Does GitHub or some thing automatically delete the end line? The line will not be appeared on the repository but on code editor.
 
 ## References
 
