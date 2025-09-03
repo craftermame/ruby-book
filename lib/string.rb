@@ -1,4 +1,3 @@
-
 def section(title=nil)
   puts
   puts '='*80
