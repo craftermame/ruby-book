@@ -41,3 +41,28 @@ html = <<HTML
 </div>
 HTML
 puts html
+def some_method
+  <<-TEXT
+「<<-」を使うと最後の識別子をインデントできるみたい。
+  ただし、内部の文字列のインデントは反映される。
+  TEXT
+end
+puts some_method
+def some_method
+  <<~TEXT
+  でも、「<<~」を使えば内部の文字列のインデントを無視する。
+  TEXT
+end
+puts some_method
+name = 'craftermame'
+a = <<TEXT
+ヒアドキュメントでは式展開も使える。
+こんにちは、"#{name}" さん。
+TEXT
+puts a
+puts 'ただし、開始の識別子をシングルクオートで囲うと式展開が無効になる。'
+a = <<'TEXT'
+ヒアドキュメントでは式展開も使える。
+こんにちは、"#{name}" さん。
+TEXT
+puts a
