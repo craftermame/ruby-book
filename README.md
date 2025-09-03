@@ -5,7 +5,7 @@ My ruby learning record with 「プロを目指す人のためのRuby入門」.
 
 ## Policy
 
-On the first term, I will put the program files directlly on the repo root. As it gose, I will clarify the directory structure. So, don't warry (for me).
+On the first term, I will put the program files directly on the repo root. As it gose, I will clarify the directory structure. So, don't warry (for me).
 
 ## Name Conventions
 
