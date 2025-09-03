@@ -30,6 +30,10 @@ The ruby program file should be end with a single newline.
 > [!NOTE]
 > Does GitHub or some thing automatically delete the end line? The line will not be appeared on the repository but on code editor.
 
+### What does heredoc mean
+
+Heredoc (here document) is a technical term that lets us write multiple-lined string directly on the program file. Thanks for it, we can write actual HTML syntax on the ruby file without any escapes.
+
 ## References
 
 - 「プロを目指す人のためのRuby入門」
