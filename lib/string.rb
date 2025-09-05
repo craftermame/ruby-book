@@ -92,7 +92,6 @@ puts [10, 20, 30].join
 puts [10, 20, 30].join(' ')
 puts 'Hi!' * 10
 puts String.new('hello')  # あんま使わないらしい。
-
 puts 'a'  # 1文字でも文字「列」として扱われる
 puts 'aa'
 puts ?a  # これも文字列らしい
