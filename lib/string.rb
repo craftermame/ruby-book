@@ -65,3 +65,34 @@ a = <<'TEXT'
 こんにちは、"#{name}" さん。
 TEXT
 puts a
+puts 'Heredoc は引数として渡すことができるらしい。（どういうこと？）'
+a = 'Ruby'
+a.prepend(<<TEXT)
+a.prepend(<<TEXT2)
+Java
+PHP
+TEXT
+puts a
+puts '本当だ。開始のTEXTプラスカッコ閉じがあって、その次の行から Heredoc になるっぽい。'
+b = <<TEXT.upcase
+Hello,
+Good-bye.
+TEXT
+puts b
+puts 'ほんとだ。つまり、「<<TEXT」という名前のオブジェクトとして扱えるんだね。'
+
+
+section 'フォーマット'
+printf("%0.3f\n", 1.2)  # C言語と同じだね。
+# こんな書き方もできる
+puts '%0.3f' % 1.2
+puts '%0.3f + %0.3f' % [1.2, 0.48]
+# その他の操作
+puts [10, 20, 30].join
+puts [10, 20, 30].join(' ')
+puts 'Hi!' * 10
+puts String.new('hello')  # あんま使わないらしい。
+
+puts 'a'  # 1文字でも文字「列」として扱われる
+puts 'aa'
+puts ?a  # これも文字列らしい
