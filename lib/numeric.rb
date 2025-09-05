@@ -17,7 +17,7 @@ section 'Exponent'
 puts 2e3   # 2 * 10^3
 puts 2e-3  # 2 * 10^(-3)
 
-section 'Other'
+section 'Numeric Class'
 puts 10.class  # Integer
 puts 1.5.class # Float
 
