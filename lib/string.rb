@@ -1,12 +1,4 @@
-def section(title=nil)
-  puts
-  puts '='*80
-  if title
-    puts title
-    puts '='*80
-  end
-end
-
+require './utils.rb'
 
 section '% 記法'
 # これ便利なのかな
