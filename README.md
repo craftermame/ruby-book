@@ -11,11 +11,11 @@ On the first term, I will put the program files directly on the repo root. As it
 
 ### snake_case
 
-- symbols
-- variable_names
-- methods
-- file_names
-- folder_names (directory_names)
+- symbols_name
+- variabls_name
+- methods_name
+- files_name
+- folder_name (directory_name)
 
 ## Tips
 
