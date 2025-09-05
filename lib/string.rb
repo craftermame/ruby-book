@@ -1,4 +1,4 @@
-require './utils.rb'
+require_relative './utils'
 
 section '% 記法'
 # これ便利なのかな
