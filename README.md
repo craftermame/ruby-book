@@ -34,6 +34,19 @@ The ruby program file should be end with a single newline.
 
 Heredoc (here document) is a technical term that lets us write multiple-lined string directly on the program file. Thanks for it, we can write actual HTML syntax on the ruby file without any escapes.
 
+### Importing internal dependencies
+
+Use `require_relative` to import internal dependencies.
+
+```rb
+require_relative './some_file'
+```
+
+This way has following benefit.
+
+- Making clear the file is internal or external.
+- The system searches only internal files while `require` searches all of `$LOAD_PATH`.
+
 ## References
 
 - 「プロを目指す人のためのRuby入門」
