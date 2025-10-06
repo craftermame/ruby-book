@@ -56,3 +56,4 @@ results.each do |token|
   end
 end
 p player_win
+# => {"Alice"=>2, "Bob"=>1, "Charlie"=>1}
